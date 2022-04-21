@@ -25,3 +25,40 @@ body{
   top: 250px;
 
 }
+.laser{
+  position: relative;
+width: 40px;
+height: 30px;
+}
+.alien{
+  height: 60px;
+  width: 70px;
+  position: relative;
+}
+.game-instructions{
+  position: relative;
+  color: azure;
+  left: 7rem;
+  top: 0px;
+}
+
+.start-button{
+  position: relative;
+  color: white;
+  top: 9rem;
+  left: 15rem;
+  cursor: pointer;
+}
+
+
+.alien-transition{
+  opacity:1;
+  transition: opacity 1.5s ease-in-out;
+}
+
+.dead-ali{
+  height: 60px;
+  width: 70px;
+  position: relative;
+  opacity: 0;
+}
